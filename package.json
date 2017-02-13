@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.0",
-    "react-input-autosize": "^0.6.2"
+    "react-input-autosize": "^1.0.0"
   },
   "devDependencies": {
     "babel": "^5.8.23",
@@ -25,9 +25,9 @@
     "istanbul": "^0.4.0",
     "jsdom": "^7.0.2",
     "mocha": "^2.3.3",
-    "react": "^0.14.1",
-    "react-addons-test-utils": "^0.14.1",
-    "react-dom": "^0.14.1",
+    "react": "^15.0",
+    "react-addons-test-utils": "^15.0",
+    "react-dom": "^15.0",
     "react-gravatar": "^2.2.2",
     "react-component-gulp-tasks": "^0.7.7",
     "sinon": "^1.17.2",
@@ -36,8 +36,8 @@
     "unexpected-sinon": "^8.0.0"
   },
   "peerDependencies": {
-    "react": "^0.14.1",
-    "react-dom": "^0.14.1"
+    "react": "^0.14 || ^15.0",
+    "react-dom": "^0.14 || ^15.0"
   },
   "browserify-shim": {
     "classnames": "global:classNames",
